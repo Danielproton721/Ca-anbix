@@ -330,12 +330,16 @@ export default function App() {
                 <span className="material-symbols-outlined text-primary text-sm">home_pin</span>
                 <span>Av. Industrial, 1000<br />São Paulo - SP</span>
               </li>
+              <li className="flex items-center gap-3">
+                <span className="material-symbols-outlined text-primary text-sm">badge</span>
+                CNPJ: 22.509.495/0001-11
+              </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 py-8 px-12">
           <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-            <p>© 2024 Locabem Caçambas. Todos os direitos reservados.</p>
+            <p>© 2024 Locabem Caçambas. CNPJ: 22.509.495/0001-11. Todos os direitos reservados.</p>
             <div className="flex gap-8">
               <a className="hover:text-white transition-colors" href="#">Privacidade</a>
               <a className="hover:text-white transition-colors" href="#">Termos</a>
