@@ -217,6 +217,7 @@ export default function App() {
               </a>
             </div>
           </div>
+        </div>
         </section>
 
       {/* Why Us Section */}
