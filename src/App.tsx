@@ -66,9 +66,9 @@ export default function App() {
               <a href="https://wa.me/5567981590991?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-secondary-fixed-dim transition-all text-base md:text-lg shadow-xl shadow-black/10 text-center">
                 Solicitar Orçamento
               </a>
-              <button className="border-2 border-white/30 backdrop-blur-sm text-white font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-white/10 transition-all text-base md:text-lg">
+              <a href="#servicos" className="border-2 border-white/30 backdrop-blur-sm text-white font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-white/10 transition-all text-base md:text-lg text-center">
                 Ver Tamanhos
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -172,10 +172,10 @@ export default function App() {
                 <span className="text-sm text-on-surface-variant mb-2">A partir de</span>
                 <span className="text-3xl font-black text-primary">R$ 199,99</span>
               </div>
-              <button className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
+              <a href="https://wa.me/5567981590991?text=Olá! Gostaria de alugar uma caçamba de 3.000 Litros." target="_blank" rel="noopener noreferrer" className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
                 Alugar Agora
                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
-              </button>
+              </a>
             </div>
 
             {/* Size Card 2 (Premium) - 5.000 Litros */}
@@ -192,10 +192,10 @@ export default function App() {
                 <span className="text-sm text-white/60 mb-2">A partir de</span>
                 <span className="text-3xl font-black text-secondary-container">R$ 249,99</span>
               </div>
-              <button className="w-full bg-secondary-container text-on-secondary-fixed font-bold py-4 rounded-xl hover:bg-secondary-fixed-dim transition-all flex items-center justify-center gap-2 shadow-xl shadow-black/20">
+              <a href="https://wa.me/5567981590991?text=Olá! Gostaria de alugar uma caçamba de 5.000 Litros." target="_blank" rel="noopener noreferrer" className="w-full bg-secondary-container text-on-secondary-fixed font-bold py-4 rounded-xl hover:bg-secondary-fixed-dim transition-all flex items-center justify-center gap-2 shadow-xl shadow-black/20">
                 Alugar Agora
                 <span className="material-symbols-outlined text-sm">shopping_cart</span>
-              </button>
+              </a>
             </div>
 
             {/* Size Card 3 - 7.000 Litros */}
@@ -211,14 +211,13 @@ export default function App() {
                 <span className="text-sm text-on-surface-variant mb-2">A partir de</span>
                 <span className="text-3xl font-black text-primary">R$ 389,99</span>
               </div>
-              <button className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
+<a href="https://wa.me/5567981590991?text=Olá! Gostaria de alugar uma caçamba de 7.000 Litros." target="_blank" rel="noopener noreferrer" className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
                 Alugar Agora
                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
-              </button>
+              </a>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       {/* Why Us Section */}
       <section id="diferenciais" className="py-24 bg-primary text-white overflow-hidden relative">
