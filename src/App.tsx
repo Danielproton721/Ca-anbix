@@ -40,7 +40,7 @@ export default function App() {
           </div>
           <div className="flex items-center gap-4">
             <span className="material-symbols-outlined text-primary">location_on</span>
-            <a href="https://wa.me/5567981590991?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-6 py-2.5 rounded-lg scale-95 duration-200 active:opacity-80 hover:bg-secondary-fixed-dim transition-all">
+            <a href="https://wa.me/5567981590991?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-6 py-2.5 rounded-lg scale-95 duration-200 active:opacity-80 hover:bg-secondary-fixed-dim transition-all whitespace-nowrap">
               Solicitar Agora
             </a>
           </div>
