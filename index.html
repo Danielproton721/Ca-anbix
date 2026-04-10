@@ -71,6 +71,8 @@
       import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
       createChat({
         webhookUrl: 'https://alessadra498.app.n8n.cloud/webhook/locabem-site-chat-webhook/chat',
+        mode: 'window',
+        showWelcomeScreen: true,
         initialMessages: [
           'Olá! Sou o assistente da LOCA BEM. Como posso ajudar você hoje?'
         ],
